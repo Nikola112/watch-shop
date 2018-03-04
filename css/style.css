@@ -112,9 +112,12 @@ body {
   background-color: #ffffff;
   color: #000; }
 
-#main-navigation .link:hover {
+#main-navigation .nav-item .link:hover {
   color: #000;
   font-weight: bold; }
+
+#main-navigation .fa-shopping-cart {
+  font-size: 2rem; }
 
 .navbar-toggler {
   color: #fff; }

@@ -56,7 +56,9 @@
             </nav>
 
             <nav class="navbar navbar-header pb-3">
-                <span class="link">Choose language</span>
+                <span class="link">
+                    Choose language
+                </span>
                 <form class="form-inline ml-auto">
                     <div class="search">
                         <input class="form-control search-box" type="search" placeholder="Search" aria-label="Search" />
@@ -69,7 +71,12 @@
         <div id="main-navigation" class="color-primary">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <div class="navbar-brand d-block d-lg-none">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars px-1 pt-1"></span>
+                        <span class="small-text pb-1">Menu</span>
+                    </button>
+
+                    <div class="navbar-brand mx-auto d-block d-lg-none">
                         <a href="#" class="logo text-uppercase">
                             WatchShop
                             <div class="my-row">
@@ -79,10 +86,11 @@
                             </div>
                         </a>
                     </div>
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars px-1 pt-1"></span>
-                        <span class="small-text pb-1">Menu</span>
-                    </button>
+
+                    <div class="link">
+                        <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                    </div>
+
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav nav-fill w-100">
                             <li class="nav-item active">
