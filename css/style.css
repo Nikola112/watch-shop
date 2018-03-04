@@ -1,0 +1,85 @@
+body {
+  font-family: "Marcellus", serif;
+  color: #ffffff;
+  font-size: 14px; }
+
+.color-primary {
+  background-color: #222222; }
+
+.color-secondary {
+  background-color: #e9a403; }
+
+.color-info {
+  background-color: #c1c1c1; }
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  font: "Marcellus";
+  transition: color 0.1s;
+  cursor: pointer; }
+
+.link:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font: "Marcellus";
+  color: #ffb200; }
+
+.navbar-header {
+  justify-content: flex-start;
+  padding: 0px 16px; }
+
+.header-item {
+  margin: 0px 0.25rem;
+  font-size: 12px; }
+
+.logo {
+  text-decoration: none;
+  color: #ffffff;
+  font: "Marcellus";
+  cursor: pointer;
+  font-size: 2rem; }
+
+.logo:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font: "Marcellus"; }
+
+.small-text {
+  font-size: 0.7rem; }
+
+.bar {
+  background-color: #e9a403;
+  height: 2px;
+  width: 3rem;
+  display: block; }
+
+.my-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.search {
+  border-bottom: 2px solid #ffffff;
+  text-align: center; }
+
+.fa-search {
+  padding: 0.25rem;
+  transition: color 0.1s; }
+
+.fa-search:hover {
+  color: #ffb200;
+  cursor: pointer; }
+
+.search-box {
+  background: none;
+  border: 0px none;
+  border-radius: 0px;
+  color: #ffffff !important; }
+
+.search-box:focus {
+  background: none;
+  border: 0px none;
+  box-shadow: none; }
+
+/*# sourceMappingURL=style.css.map */
