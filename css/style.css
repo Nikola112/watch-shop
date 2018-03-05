@@ -56,6 +56,9 @@ h1 {
   color: #ffffff;
   font: "Muli"; }
 
+.d-lg-none .logo {
+  font-size: 1.65rem; }
+
 .small-text {
   font-size: 0.7rem; }
 
@@ -262,6 +265,6 @@ h1 {
     z-index: 1030; }
 
   #main {
-    margin-top: 75px; } }
+    margin-top: 65px; } }
 
 /*# sourceMappingURL=style.css.map */
