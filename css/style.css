@@ -66,10 +66,22 @@ h1 {
   width: 3rem;
   display: block; }
 
+.bar-2 {
+  background-color: #e9a403;
+  height: 2px;
+  width: 3rem;
+  display: block; }
+
 .my-row {
   display: flex;
   align-items: center;
   justify-content: space-around; }
+
+.my-row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px; }
 
 .search {
   border-bottom: 2px solid #ffffff;
@@ -187,6 +199,59 @@ h1 {
 
 .manf-logo {
   cursor: pointer; }
+
+.serif-font {
+  font-family: 'Playfair Display', serif; }
+
+.special-offers-header {
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem; }
+
+.text-antialiased {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.special-offer {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px #bbb;
+  transition: box-shadow 0.2s; }
+
+.special-offer img {
+  width: 100%; }
+
+.special-offer:hover {
+  box-shadow: 5px 5px 5px #bbb; }
+
+.caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.caption-text {
+  width: 66.67%;
+  height: 100%;
+  background-color: #fff;
+  color: #000; }
+
+.caption-button {
+  width: 33.34%;
+  height: 100%;
+  font-weight: 350;
+  background-color: #e9a403;
+  transition: background-color 0.2s, color 0.2;
+  cursor: pointer; }
+
+.caption-button:hover {
+  background-color: #ffb200;
+  color: #000; }
 
 @media (max-width: 991.98px) {
   #main-navigation {
