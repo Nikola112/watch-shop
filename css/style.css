@@ -87,7 +87,8 @@ h1 {
   background: none;
   border: 0px none;
   border-radius: 0px;
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  width: 300px !important; }
 
 .search-box:focus {
   background: none;
