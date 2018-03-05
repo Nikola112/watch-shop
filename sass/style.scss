@@ -176,10 +176,9 @@ h1
     color: #000;
 }
 
-#main-navigation .nav-item .link:hover
+#main-navigation .nav-item:hover .link
 {
     color: #000;
-    font-weight: bold;
 }
 
 #main-navigation .fa-shopping-cart
@@ -252,6 +251,7 @@ h1
     text-align: center;
     font-weight: bold;
     font-size: 1.125rem;
+    cursor: pointer;
 }
 
 #categories .img-fluid
@@ -265,11 +265,14 @@ h1
     font-size: 0.75rem;
     font-weight: bold;
     cursor: pointer;
+    transition: box-shadow 0.2s;
+    // Edge blur antialiasing
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
-.category:hover .text-dark
+.category:hover
 {
-    color: $hover-color !important;
+    box-shadow: 5px 5px 5px #c4c4c4;
 }
 
 .manf-logo
