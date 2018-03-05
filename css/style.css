@@ -182,6 +182,9 @@ h1 {
 .category:hover .text-dark {
   color: #ffb200 !important; }
 
+.manf-logo {
+  cursor: pointer; }
+
 @media (max-width: 991.98px) {
   #main-navigation {
     position: fixed;
