@@ -316,7 +316,8 @@ h1 {
     padding-left: 0px !important; }
 
   #main-navigation .navbar {
-    padding: 0px; } }
+    padding: 0px;
+    padding-right: 0.5rem; } }
 @media (min-width: 768px) {
   .img-xs-holder {
     max-width: 100%; } }
