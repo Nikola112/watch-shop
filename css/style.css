@@ -223,10 +223,15 @@ h1 {
   transition: box-shadow 0.2s; }
 
 .special-offer img {
-  width: 100%; }
+  width: 100%;
+  transition: opacity 0.2s;
+  cursor: pointer; }
 
 .special-offer:hover {
   box-shadow: 5px 5px 5px #bbb; }
+
+.special-offer:hover img {
+  opacity: 0.95; }
 
 .caption {
   position: absolute;
@@ -256,6 +261,39 @@ h1 {
   background-color: #ffb200;
   color: #000; }
 
+.info-header {
+  font-size: 1.25rem;
+  letter-spacing: 0.35rem; }
+
+.long-bar {
+  width: 12rem;
+  border-bottom: 1px solid #c1c1c1; }
+
+.information img {
+  cursor: pointer; }
+
+.information .serif-font {
+  font-size: 1.0625rem;
+  letter-spacing: 0.125rem;
+  font-weight: bold; }
+
+.info-btn {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  width: 50%;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s; }
+
+.img-xs-holder {
+  max-width: 75%; }
+
+.info-btn:hover {
+  background-color: #000;
+  color: #fff !important; }
+
 @media (max-width: 991.98px) {
   #main-navigation {
     position: fixed;
@@ -266,5 +304,8 @@ h1 {
 
   #main {
     margin-top: 65px; } }
+@media (min-width: 768px) {
+  .img-xs-holder {
+    max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
