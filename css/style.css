@@ -303,7 +303,10 @@ h1 {
     z-index: 1030; }
 
   #main {
-    margin-top: 65px; } }
+    margin-top: 65px; }
+
+  #main-navigation .container {
+    max-width: 100% !important; } }
 @media (min-width: 768px) {
   .img-xs-holder {
     max-width: 100%; } }

@@ -445,8 +445,12 @@ h1
     {
         margin-top: 65px;
     }
-}
 
+    #main-navigation .container
+    {
+        max-width: 100% !important;
+    }
+}
 @media (min-width: 768px)
 { 
     .img-xs-holder
