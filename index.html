@@ -25,7 +25,7 @@
             <div class="d-none d-lg-block color-primary">
                 <nav class="navbar navbar-header pt-3 px-4">
                     <div class="header-item link">
-                        <span class="fa fa-phone"></span>
+                        <span class="fa fa-phone" aria-hidden="true"></span>
                         &nbsp;011/0000000
                     </div>
                     <div class="header-item ml-auto">
@@ -64,7 +64,7 @@
                     <form class="form-inline ml-auto">
                         <div class="search">
                             <input class="form-control search-box" type="search" placeholder="Search" aria-label="Search" />
-                            <span class="fa fa-search"></span>
+                            <span class="fa fa-search" aria-hidden="true"></span>
                         </div>
                     </form>
                 </nav>
@@ -74,7 +74,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="fa fa-bars px-1 pt-1"></span>
+                            <span class="fa fa-bars px-1 pt-1" aria-hidden="true"></span>
                             <span class="small-text pb-1">Menu</span>
                         </button>
     
@@ -389,7 +389,15 @@
                 </div>
             </div>
 
-            <!--<div class="btn btn-primary scrollToTop" onclick="topFunction()">AAA</div>-->
+            <footer>
+                <div class="color-info">
+                    <div class="w-100 back-to-top mx-auto text-center text-uppercase text-dark p-3 scrollToTop" onclick="topFunction()">
+                        <span class="fa fa-caret-up" aria-hidden="true"></span>
+                        &nbsp;Back to top&nbsp;
+                        <span class="fa fa-caret-up" aria-hidden="true"></span>
+                    </div>
+                </div>
+            </footer>
         </div>
 
         <script src="js/jquery.min.js"></script>

@@ -430,6 +430,13 @@ h1
     color: #fff !important;
 }
 
+.back-to-top
+{
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
 @media (max-width: 991.98px)
 {
     #main-navigation
@@ -449,6 +456,8 @@ h1
     #main-navigation .container
     {
         max-width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
 }
 @media (min-width: 768px)
