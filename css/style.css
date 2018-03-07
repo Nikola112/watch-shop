@@ -320,8 +320,10 @@ h1 {
     padding-left: 0px !important; }
 
   #main-navigation .navbar {
-    padding: 0px;
-    padding-right: 1rem; } }
+    padding: 0px; }
+
+  #main-navigation .shopping-cart {
+    margin-right: 1rem; } }
 @media (min-width: 768px) {
   .img-xs-holder {
     max-width: 100%; } }
