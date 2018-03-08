@@ -530,6 +530,17 @@ h1
     {
         margin-right: 1rem;
     }
+
+    .caption
+    {
+        font-size: 0.75rem;
+    }
+
+    .caption-text
+    {
+        padding: 0.5rem 0px !important;
+        line-height: 34px;
+    }
 }
 @media (min-width: 768px)
 { 

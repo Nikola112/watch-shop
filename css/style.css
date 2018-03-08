@@ -360,7 +360,14 @@ h1 {
     padding: 0px; }
 
   #main-navigation .shopping-cart {
-    margin-right: 1rem; } }
+    margin-right: 1rem; }
+
+  .caption {
+    font-size: 0.75rem; }
+
+  .caption-text {
+    padding: 0.5rem 0px !important;
+    line-height: 34px; } }
 @media (min-width: 768px) {
   .img-xs-holder {
     max-width: 100%; } }
