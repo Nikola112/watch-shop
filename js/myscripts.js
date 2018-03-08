@@ -2,7 +2,7 @@ $(document).ready(function()
 {
     var didScroll;
     var lastScrollTop = 0;
-    var delta = 150;
+    var delta = 50;
     var navbarHeight = $('#main-navigation').outerHeight();
 
     $(window).scroll(function(event)

@@ -299,6 +299,43 @@ h1 {
   font-size: 0.8rem;
   cursor: pointer; }
 
+.small-text {
+  font-size: 0.75rem;
+  padding: 2rem 0px 1rem 0px;
+  word-spacing: 0.075rem; }
+
+.newsletter-input {
+  padding: 0.5rem;
+  font-size: 0.75rem; }
+
+.newsletter-email {
+  width: 250px; }
+
+.newsletter-submit {
+  padding: calc(0.5rem + 1px);
+  background-color: #e9a403;
+  transition: background-color 0.3s;
+  border: 1px solid #ccc;
+  cursor: pointer; }
+
+#footer-menu {
+  border-top: 1px solid #cacaca; }
+
+#footer-menu .nav-link {
+  color: #000 !important;
+  cursor: pointer;
+  padding: 0px 0.5rem;
+  border-left: 1px solid #aaa; }
+
+#footer-menu .nav-item:first-child .nav-link {
+  border-left: 0px none; }
+
+.newsletter-submit:hover {
+  background-color: #ffb200; }
+
+#copyrights {
+  border-top: 1px solid #cacaca; }
+
 @media (max-width: 991.98px) {
   #main-navigation {
     position: fixed;
