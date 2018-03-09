@@ -389,7 +389,8 @@ h1 {
   cursor: pointer; }
 
 .gallery-item {
-  position: relative; }
+  position: relative;
+  box-shadow: 3px 3px 3px #cacaca; }
 
 .gallery-item img {
   display: block;
