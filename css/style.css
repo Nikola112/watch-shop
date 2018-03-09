@@ -465,7 +465,10 @@ h1 {
 
   .caption-text {
     padding: 0.5rem 0px !important;
-    line-height: 34px; } }
+    line-height: 34px; }
+
+  #gallery .img-fluid {
+    width: 100%; } }
 @media (min-width: 768px) {
   .img-xs-holder {
     max-width: 100%; } }

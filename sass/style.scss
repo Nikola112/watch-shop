@@ -692,6 +692,11 @@ h1
         padding: 0.5rem 0px !important;
         line-height: 34px;
     }
+
+    #gallery .img-fluid
+    {
+        width: 100%;
+    }
 }
 @media (min-width: 768px)
 { 
