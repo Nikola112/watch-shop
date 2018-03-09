@@ -7,8 +7,8 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="author" content="Nikola Jovic" />
-		<meta name="keywords" content="watch, watchshop, watches, author, about" />
-		<meta name="description" content="This page is about author." />
+        <meta name="keywords" content="watch, watchshop, watches, author, about" />
+        <meta name="description" content="This page is about author." />
 
         <link rel="shortcut icon" href="../img/icon.png" />
 
@@ -42,7 +42,7 @@
                         &nbsp;0 Items
                     </div>
                 </nav>
-        
+
                 <nav class="navbar navbar-header nav-logo">
                     <div class="navbar-brand mx-auto py-0">
                         <a href="../index.html" class="logo text-uppercase">
@@ -55,7 +55,7 @@
                         </a>
                     </div>
                 </nav>
-        
+
                 <nav class="navbar navbar-header pb-3">
                     <span class="link">
                         Choose language
@@ -68,7 +68,7 @@
                     </form>
                 </nav>
             </div>
-        
+
             <div id="main-navigation" class="color-primary">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
@@ -76,7 +76,7 @@
                             <span class="fa fa-bars px-1 pt-1" aria-hidden="true"></span>
                             <span class="small-text pb-1">Menu</span>
                         </button>
-    
+
                         <div class="navbar-brand mx-auto d-block d-lg-none">
                             <a href="../index.html" class="logo text-uppercase">
                                 WatchShop
@@ -87,11 +87,11 @@
                                 </div>
                             </a>
                         </div>
-    
+
                         <div class="link d-block d-lg-none shopping-cart">
                             <span class="fa fa-shopping-cart" aria-hidden="true"></span>
                         </div>
-    
+
                         <div class="collapse navbar-collapse" id="main-navbar">
                             <ul class="navbar-nav nav-fill w-100">
                                 <li class="nav-item">
@@ -116,10 +116,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link link text-uppercase" href="contact.html">Contact</a>
                                 </li>
-                                <li class="nav-item active">
+                                <li class="nav-item">
                                     <a class="nav-link link text-uppercase" href="aboutme.html">About me</a>
                                 </li>
-                                <li class="nav-item d-xs-block d-lg-none">
+                                <li class="nav-item d-xs-block d-lg-none active">
                                     <a class="nav-link link text-uppercase" href="register.html">Sign in or Register</a>
                                 </li>
                             </ul>
@@ -130,24 +130,39 @@
         </header>
 
         <div id="main">
-            <div class="container">
-                <div class="row py-4">
-                    <div class="col-xs-12 col-lg-4">
-                        <img src="../img/me.jpg" alt="Author" class="img-thumbnail" />
+            <div class="container" id="contact">
+                <div class="row">
+                    <div class="col-12 border-bottom">
+                        <h1 class="text-dark text-center text-uppercase py-3">
+                            Contact
+                        </h1>
                     </div>
-                    <div class="col-xs-12 col-lg-8">
+                    <div class="col-12">
                         <div class="row">
-                            <div class="col-12 pt-4">
-                                <h1 class="text-dark text-center text-uppercase">About Me</h1>
+                            <div class="col-xs-12 col-lg-8">
+                                <h2 class="text-dark text-center text-uppercase py-3">
+                                    Get in touch
+                                </h2>
+                                
+                                <form action="contact.php" method="post" class="pb-3">
+                                    <input type="text" placeholder="First name*" />
+                                    <input type="text" placeholder="Last name*" />
+                                    <input type="email" placeholder="Email*" />
+                                    <input type="text" placeholder="Telephone" />
+                                    <input type="text" placeholder="Subject" />
+                                    <textarea name="text" id="text-area" cols="50" rows="10" placeholder="Text...*" class="textarea-field"></textarea>
+                                    <input type="submit" value="Send" />
+                                </form>
                             </div>
-                            <div class="col-12">
-                                <p class="text-dark text-center px-4 pb-5 pt-4">Hi, my name is Nikola Jović. I finished "Gimnazija u Obrenovcu" high school. I am self taught Unity C# Developer and I am now studying to become Web Developer at "Visoka ICT Škola". In free time I program games and play them.</p>
-                            </div>
-                            <div class="col-12">
-                                <p class="text-dark px-4">My Email: <a href="mailto:nikola.jovic.100.17@ict.edu.rs">nikola.jovic.100.17@ict.edu.rs</a></p>
-                            </div>
-                            <div class="col-12">
-                                <p class="text-dark px-4">My Github: <a href="https://github.com/Nikola112">GitHub</a></p>
+                            <div class="col-xs-12 col-lg-4">
+                                <hr class="d-block d-lg-none my-1" />
+                                <h2 class="text-dark text-center text-uppercase py-3">
+                                    Info
+                                </h2>
+
+                                <p class="text-dark px-2">My Email: &nbsp;<a href="mailto:nikola.jovic.100.17@ict.edu.rs">nikola.jovic.100.17@ict.edu.rs</a></p>
+                                <p class="text-dark px-2">My Phone: &nbsp;<span>011/8700000</span></p>
+                                <p class="text-dark px-2">My Facebook: &nbsp;<span>Facebook</span></p>
                             </div>
                         </div>
                     </div>

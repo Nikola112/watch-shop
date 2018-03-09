@@ -7,7 +7,6 @@ h1 {
   color: #000;
   text-align: center;
   font-size: 1.4rem;
-  font-family: 'Playfair Display', serif;
   letter-spacing: 7px; }
 
 .color-primary {
@@ -335,6 +334,51 @@ h1 {
 
 #copyrights {
   border-top: 1px solid #cacaca; }
+
+.sign-in-icon {
+  background-color: #c1c1c1;
+  border-radius: 50%;
+  font-size: 6rem;
+  width: 108px;
+  height: 108px;
+  overflow: hidden;
+  color: #f0f0f0; }
+
+#signUp input {
+  padding: 0.5rem;
+  width: 90%;
+  margin: 1rem auto 0.5rem auto;
+  display: block; }
+#signUp input[type="submit"] {
+  padding: calc(0.5rem + 1px);
+  background-color: #e9a403;
+  transition: background-color 0.3s;
+  border: 1px solid #c1c1c1;
+  cursor: pointer; }
+#signUp input[type="submit"]:hover {
+  background-color: #ffb200; }
+
+#contact input, #contact textarea {
+  padding: 0.5rem;
+  width: 90%;
+  margin: 1rem auto 0.5rem auto;
+  display: block; }
+#contact input[type="submit"] {
+  padding: calc(0.5rem + 1px);
+  background-color: #e9a403;
+  transition: background-color 0.3s;
+  border: 1px solid #c1c1c1;
+  cursor: pointer; }
+#contact input[type="submit"]:hover {
+  background-color: #ffb200; }
+#contact p {
+  font-size: 1rem;
+  text-align: center; }
+#contact p span {
+  color: #007bff;
+  cursor: pointer; }
+#contact p span:hover {
+  text-decoration: underline; }
 
 @media (max-width: 991.98px) {
   #main-navigation {
